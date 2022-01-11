@@ -1,4 +1,5 @@
 import { ReactComponent as GithubIcon } from 'assets/img/github.svg';
+import { DiReact } from "react-icons/di";
 import './styles.css'
 
 function Navbar() {
@@ -9,7 +10,7 @@ function Navbar() {
                     <h1>DSMovie</h1>
                     <a href="https://github.com/wemmelotec" target="_blank" rel="noreferrer">
                         <div className="dsmovie-contact-container">
-                            <GithubIcon />
+                            <DiReact />
                             <p className="dsmovie-contact-link">/wemmelotec</p>
                         </div>
                     </a>
