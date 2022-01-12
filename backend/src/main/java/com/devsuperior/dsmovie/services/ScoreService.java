@@ -37,7 +37,7 @@ public class ScoreService {
 		Score score = new Score();
 		score.setMovie(movie);
 		score.setUser(user);
-		score.setValue(scoreDto.getScrore());
+		score.setValue(scoreDto.getScore());
 		
 		score = scoreRepository.saveAndFlush(score);
 		

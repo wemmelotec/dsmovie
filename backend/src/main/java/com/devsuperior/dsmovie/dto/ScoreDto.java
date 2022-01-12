@@ -9,5 +9,5 @@ public class ScoreDto {
 
 	private Long movieId;
 	private String email;
-	private Double scrore;
+	private Double score;
 }
