@@ -1,19 +1,12 @@
 package com.devsuperior.dsmovie.services;
 
-import java.util.List;
-
-import javax.security.auth.x500.X500Principal;
-
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.PathVariable;
-
 import com.devsuperior.dsmovie.dto.MovieDto;
 import com.devsuperior.dsmovie.entities.Movie;
 import com.devsuperior.dsmovie.repositories.MovieRepository;
-
 import lombok.RequiredArgsConstructor;
 
 @Service
