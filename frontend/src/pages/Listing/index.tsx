@@ -70,9 +70,16 @@ function Listing() {
         score: 4.5
     };*/
 
+
+    //essa função vai implementar o funcionamento do clique na paginação
+    const handlePageChange = (newPageNumber: number) => {
+        setPageNumber(newPageNumber);
+    }
+
+
     return (
         <>
-            <Pagination />
+            <Pagination page={page} onChange={handlePageChange} />
 
             <div className="container">
                 <div className="row">
